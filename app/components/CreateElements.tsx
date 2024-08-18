@@ -15,7 +15,6 @@ function CreateElements() {
     await prisma.coseDaFare.create({
       data:{
         nome:task as string,
-        fatto:false,
       }
     })
 
